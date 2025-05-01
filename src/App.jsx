@@ -5,16 +5,20 @@ import Count from './Components/Count'
 import Task1 from './Components/Task1'
 import Faq from './Components/Faq'
 import FaqData from './Components/FaqData'
+import CountDownTimer from './Components/CountDownTimer'
 
 function App() {
 
 
   return (
     <>
-  {/* <Count></Count> */}
+      {/* <Count></Count> */}
 
-  {/* <Task1></Task1> */}
-<FaqData></FaqData>
+      {/* <Task1></Task1> */}
+      {/* <FaqData></FaqData> */}
+
+
+      <CountDownTimer></CountDownTimer>
     </>
   )
 }
