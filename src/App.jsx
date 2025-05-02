@@ -6,6 +6,7 @@ import Task1 from './Components/Task1'
 import Faq from './Components/Faq'
 import FaqData from './Components/FaqData'
 import CountDownTimer from './Components/CountDownTimer'
+import Pagination from './Components/Pagination'
 
 function App() {
 
@@ -18,7 +19,9 @@ function App() {
       {/* <FaqData></FaqData> */}
 
 
-      <CountDownTimer></CountDownTimer>
+      {/* <CountDownTimer></CountDownTimer> */}
+
+      <Pagination></Pagination>
     </>
   )
 }
