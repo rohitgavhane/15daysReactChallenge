@@ -7,6 +7,7 @@ import Faq from './Components/Faq'
 import FaqData from './Components/FaqData'
 import CountDownTimer from './Components/CountDownTimer'
 import Pagination from './Components/Pagination'
+import LikeBtn from './Components/LikeBtn'
 
 function App() {
 
@@ -21,7 +22,12 @@ function App() {
 
       {/* <CountDownTimer></CountDownTimer> */}
 
-      <Pagination></Pagination>
+      {/* <Pagination></Pagination> */}
+
+      <LikeBtn></LikeBtn>
+
+
+      
     </>
   )
 }
