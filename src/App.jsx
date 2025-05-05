@@ -8,6 +8,7 @@ import FaqData from './Components/FaqData'
 import CountDownTimer from './Components/CountDownTimer'
 import Pagination from './Components/Pagination'
 import LikeBtn from './Components/LikeBtn'
+import EMIcalculator from './Components/EMIcalculator'
 
 function App() {
 
@@ -24,10 +25,10 @@ function App() {
 
       {/* <Pagination></Pagination> */}
 
-      <LikeBtn></LikeBtn>
+      {/* <LikeBtn></LikeBtn> */}
 
+      <EMIcalculator></EMIcalculator>
 
-      
     </>
   )
 }
