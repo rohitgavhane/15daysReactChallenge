@@ -9,6 +9,7 @@ import CountDownTimer from './Components/CountDownTimer'
 import Pagination from './Components/Pagination'
 import LikeBtn from './Components/LikeBtn'
 import EMIcalculator from './Components/EMIcalculator'
+import ModelMain from './Components/ModelMain'
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
 
       {/* <LikeBtn></LikeBtn> */}
 
-      <EMIcalculator></EMIcalculator>
+      {/* <EMIcalculator></EMIcalculator> */}
+
+      <ModelMain ></ModelMain>
 
     </>
   )
