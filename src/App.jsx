@@ -10,6 +10,7 @@ import Pagination from './Components/Pagination'
 import LikeBtn from './Components/LikeBtn'
 import EMIcalculator from './Components/EMIcalculator'
 import ModelMain from './Components/ModelMain'
+import ProgressBarMain from './Components/ProgressBarMain'
 
 function App() {
 
@@ -30,7 +31,9 @@ function App() {
 
       {/* <EMIcalculator></EMIcalculator> */}
 
-      <ModelMain ></ModelMain>
+      {/* <ModelMain ></ModelMain> */}
+
+      <ProgressBarMain></ProgressBarMain>
 
     </>
   )
